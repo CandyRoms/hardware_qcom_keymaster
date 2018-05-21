@@ -37,6 +37,7 @@ LOCAL_SHARED_LIBRARIES := \
         liblog \
         libc \
         libdl \
+        libhardware \
         libcutils
 
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
